@@ -3,11 +3,15 @@
 ### Indice del temario.
 
 #### Unidad 2
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/css/uikit.min.css" />
 
-<div class="alert alert-primary" role="alert">
-  A simple primary alert—check it out!
-</div>
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit-icons.min.js"></script>
+
+
+<div uk-alert>  <a class="uk-alert-close" uk-close></a>  <h3>En curso de trabajo.</h3>  <p>Esto esta incompleto, estoy trabajando en ello!!</p>  </div>
 
 
 <!-- 3. Have fun! -->
